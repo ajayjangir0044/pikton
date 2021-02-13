@@ -1,0 +1,118 @@
+@font-face {
+    font-family: gilroySb;
+    src: url('/assets/fonts/Gilroy-Semibold.ttf');
+}
+
+@font-face {
+    font-family: gilroyReg;
+    src: url('/assets/fonts/Gilroy-Regular.ttf');
+}
+
+@font-face {
+    font-family: gilroyB;
+    src: url('/assets/fonts/Gilroy-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+#background {
+    background-color: #222222;
+    height: 100%;
+    width: 100%;
+}
+
+#box>h1 {
+    background-image: linear-gradient(to right, #593dd5, #fc2b00);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200 ;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+}
+
+#box {
+    font-family: gilroyReg;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(68, 68, 68, 1) 0%, rgba(51, 51, 51, 1) 100%);
+}
+#box form{
+    display:flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#box form input{
+  display: block;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding:14px 10px;
+  border: none;
+  outline: 0;
+  color: gray;
+  width: 270px;
+  font-family: gilroyReg;
+
+}
+
+#box form button{
+  padding: 10px 46px;
+  border-radius: 120px;
+  background-color: #f1304dce;
+  color: #fff;
+  font-family: gilroyReg;
+  font-size: 0.88rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 40px;
+
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+#box p{
+    color: gray;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+#box div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#box div a:nth-child(1){
+    margin-right: 10px;
+}

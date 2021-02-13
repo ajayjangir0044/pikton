@@ -1,0 +1,28 @@
+#main{
+    background-image: none;
+    
+}
+#background2{
+    background-color: #222222 !important;}
+#contact>p{
+    background-image: linear-gradient(to right, #593dd5, #fc2b00);
+    color: transparent;
+    font-weight:600;
+    font-size:1.3rem;
+    font-family:gilroyReg;
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+}
+#contact h1:nth-child(1){
+    color:rgb(214, 213, 213);
+    font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+    
+#contact h1:nth-child(1){
+    width: max-content;
+}
+
+}
+

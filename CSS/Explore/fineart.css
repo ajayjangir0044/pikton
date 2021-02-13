@@ -1,0 +1,33 @@
+.photos div{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+#background{
+   background: #222222;
+   height: auto;
+   width: auto;
+}
+
+#main{
+  background-image: none;
+  background: #222222;
+  height:auto;
+  width: auto;
+}
+.row{
+    padding: 0 70px;
+    margin-top:50px
+}
+
+@media screen and (max-width: 800px) {
+    .row{
+        padding:0px 4px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row{
+        padding:0px 4px;
+    }
+}

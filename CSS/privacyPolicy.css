@@ -1,0 +1,24 @@
+#main{
+    background:none;
+    height: auto;
+}
+#background{
+    background-color: #222222;
+}
+#about h3{
+    font-family: gilroyReg;
+
+    color: rgb(214, 213, 213);
+    margin-top: 30px;
+    
+}
+#about p{
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    #about{
+        padding-top:10px ;
+    }
+
+}
